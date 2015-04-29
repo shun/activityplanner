@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppMainController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    AppMainController *m_maincontroller;
+}
 @property (strong, nonatomic) UIWindow *window;
 
 
