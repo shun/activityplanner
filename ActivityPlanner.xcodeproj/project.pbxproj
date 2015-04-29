@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245F525D1AF1275E00E9D11F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 245F525C1AF1275E00E9D11F /* Utility.m */; };
+		24854EED1AF10D6600EAACC4 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24854EEA1AF10D6600EAACC4 /* map@2x.png */; };
+		24854EEE1AF10D6600EAACC4 /* plan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24854EEB1AF10D6600EAACC4 /* plan@2x.png */; };
+		24854EEF1AF10D6600EAACC4 /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24854EEC1AF10D6600EAACC4 /* setting@2x.png */; };
+		24854EF31AF10F2600EAACC4 /* AbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24854EF21AF10F2600EAACC4 /* AbstractViewController.m */; };
+		24854EF61AF10FA300EAACC4 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24854EF51AF10FA300EAACC4 /* MapViewController.m */; };
+		24854EF91AF1100B00EAACC4 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24854EF81AF1100B00EAACC4 /* SettingViewController.m */; };
+		24854EFC1AF1104A00EAACC4 /* BaseActivityPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24854EFB1AF1104A00EAACC4 /* BaseActivityPlanViewController.m */; };
 		249A9EFF1AE2A00300CAEBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9EFE1AE2A00300CAEBEE /* main.m */; };
 		249A9F021AE2A00300CAEBEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F011AE2A00300CAEBEE /* AppDelegate.m */; };
-		249A9F051AE2A00300CAEBEE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F041AE2A00300CAEBEE /* FirstViewController.m */; };
-		249A9F081AE2A00300CAEBEE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F071AE2A00300CAEBEE /* SecondViewController.m */; };
 		249A9F0B1AE2A00300CAEBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249A9F091AE2A00300CAEBEE /* Main.storyboard */; };
 		249A9F0D1AE2A00300CAEBEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249A9F0C1AE2A00300CAEBEE /* Images.xcassets */; };
 		249A9F101AE2A00400CAEBEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249A9F0E1AE2A00400CAEBEE /* LaunchScreen.xib */; };
 		249A9F1C1AE2A00400CAEBEE /* ActivityPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F1B1AE2A00400CAEBEE /* ActivityPlannerTests.m */; };
+		249A9F2A1AE2AD5E00CAEBEE /* AllActivityPlan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249A9F291AE2AD5E00CAEBEE /* AllActivityPlan.xib */; };
+		249A9F2C1AE2AD7900CAEBEE /* SectionActivityPlan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249A9F2B1AE2AD7900CAEBEE /* SectionActivityPlan.xib */; };
+		249A9F2E1AE2AE2B00CAEBEE /* ActivityPlanItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249A9F2D1AE2AE2B00CAEBEE /* ActivityPlanItem.xib */; };
+		249A9F301AE2AE3A00CAEBEE /* ActivityPlanDetailItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249A9F2F1AE2AE3A00CAEBEE /* ActivityPlanDetailItem.xib */; };
+		249A9F341AEA7EAC00CAEBEE /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F331AEA7EAC00CAEBEE /* LocationController.m */; };
+		249A9F371AEA7EBE00CAEBEE /* MotionActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F361AEA7EBE00CAEBEE /* MotionActivityController.m */; };
+		249A9F3A1AEA7ECC00CAEBEE /* MotionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F391AEA7ECC00CAEBEE /* MotionController.m */; };
+		249A9F3D1AEA7ED900CAEBEE /* SensorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F3C1AEA7ED900CAEBEE /* SensorManager.m */; };
+		249A9F401AEA7F3B00CAEBEE /* AppMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F3F1AEA7F3B00CAEBEE /* AppMainController.m */; };
+		249A9F471AEE565100CAEBEE /* logtrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 249A9F461AEE565100CAEBEE /* logtrace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +44,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		245F525B1AF1275E00E9D11F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		245F525C1AF1275E00E9D11F /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		24854EEA1AF10D6600EAACC4 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map@2x.png"; path = "ActivityPlanner/Resources/map@2x.png"; sourceTree = "<group>"; };
+		24854EEB1AF10D6600EAACC4 /* plan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plan@2x.png"; path = "ActivityPlanner/Resources/plan@2x.png"; sourceTree = "<group>"; };
+		24854EEC1AF10D6600EAACC4 /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting@2x.png"; path = "ActivityPlanner/Resources/setting@2x.png"; sourceTree = "<group>"; };
+		24854EF11AF10F2600EAACC4 /* AbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractViewController.h; sourceTree = "<group>"; };
+		24854EF21AF10F2600EAACC4 /* AbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractViewController.m; sourceTree = "<group>"; };
+		24854EF41AF10FA300EAACC4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		24854EF51AF10FA300EAACC4 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		24854EF71AF1100B00EAACC4 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		24854EF81AF1100B00EAACC4 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		24854EFA1AF1104A00EAACC4 /* BaseActivityPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseActivityPlanViewController.h; sourceTree = "<group>"; };
+		24854EFB1AF1104A00EAACC4 /* BaseActivityPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseActivityPlanViewController.m; sourceTree = "<group>"; };
 		249A9EF91AE2A00300CAEBEE /* ActivityPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249A9EFD1AE2A00300CAEBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		249A9EFE1AE2A00300CAEBEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		249A9F001AE2A00300CAEBEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		249A9F011AE2A00300CAEBEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		249A9F031AE2A00300CAEBEE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		249A9F041AE2A00300CAEBEE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		249A9F061AE2A00300CAEBEE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		249A9F071AE2A00300CAEBEE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		249A9F0A1AE2A00300CAEBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		249A9F0C1AE2A00300CAEBEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		249A9F0F1AE2A00400CAEBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		249A9F151AE2A00400CAEBEE /* ActivityPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		249A9F1A1AE2A00400CAEBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		249A9F1B1AE2A00400CAEBEE /* ActivityPlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityPlannerTests.m; sourceTree = "<group>"; };
+		249A9F291AE2AD5E00CAEBEE /* AllActivityPlan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllActivityPlan.xib; sourceTree = "<group>"; };
+		249A9F2B1AE2AD7900CAEBEE /* SectionActivityPlan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionActivityPlan.xib; sourceTree = "<group>"; };
+		249A9F2D1AE2AE2B00CAEBEE /* ActivityPlanItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityPlanItem.xib; sourceTree = "<group>"; };
+		249A9F2F1AE2AE3A00CAEBEE /* ActivityPlanDetailItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityPlanDetailItem.xib; sourceTree = "<group>"; };
+		249A9F321AEA7EAC00CAEBEE /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
+		249A9F331AEA7EAC00CAEBEE /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
+		249A9F351AEA7EBE00CAEBEE /* MotionActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionActivityController.h; sourceTree = "<group>"; };
+		249A9F361AEA7EBE00CAEBEE /* MotionActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionActivityController.m; sourceTree = "<group>"; };
+		249A9F381AEA7ECC00CAEBEE /* MotionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionController.h; sourceTree = "<group>"; };
+		249A9F391AEA7ECC00CAEBEE /* MotionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionController.m; sourceTree = "<group>"; };
+		249A9F3B1AEA7ED900CAEBEE /* SensorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorManager.h; sourceTree = "<group>"; };
+		249A9F3C1AEA7ED900CAEBEE /* SensorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorManager.m; sourceTree = "<group>"; };
+		249A9F3E1AEA7F3B00CAEBEE /* AppMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMainController.h; sourceTree = "<group>"; };
+		249A9F3F1AEA7F3B00CAEBEE /* AppMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppMainController.m; sourceTree = "<group>"; };
+		249A9F451AEE565100CAEBEE /* logtrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logtrace.h; sourceTree = "<group>"; };
+		249A9F461AEE565100CAEBEE /* logtrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logtrace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +104,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245F525A1AF1273200E9D11F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				245F525B1AF1275E00E9D11F /* Utility.h */,
+				245F525C1AF1275E00E9D11F /* Utility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		24854EE91AF10D4E00EAACC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24854EEA1AF10D6600EAACC4 /* map@2x.png */,
+				24854EEB1AF10D6600EAACC4 /* plan@2x.png */,
+				24854EEC1AF10D6600EAACC4 /* setting@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		249A9EF01AE2A00300CAEBEE = {
 			isa = PBXGroup;
 			children = (
 				249A9EFB1AE2A00300CAEBEE /* ActivityPlanner */,
 				249A9F181AE2A00400CAEBEE /* ActivityPlannerTests */,
 				249A9EFA1AE2A00300CAEBEE /* Products */,
+				24854EE91AF10D4E00EAACC4 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,16 +145,18 @@
 		249A9EFB1AE2A00300CAEBEE /* ActivityPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				245F525A1AF1273200E9D11F /* Utility */,
+				249A9F451AEE565100CAEBEE /* logtrace.h */,
+				249A9F461AEE565100CAEBEE /* logtrace.m */,
 				249A9F001AE2A00300CAEBEE /* AppDelegate.h */,
 				249A9F011AE2A00300CAEBEE /* AppDelegate.m */,
-				249A9F031AE2A00300CAEBEE /* FirstViewController.h */,
-				249A9F041AE2A00300CAEBEE /* FirstViewController.m */,
-				249A9F061AE2A00300CAEBEE /* SecondViewController.h */,
-				249A9F071AE2A00300CAEBEE /* SecondViewController.m */,
-				249A9F091AE2A00300CAEBEE /* Main.storyboard */,
-				249A9F0C1AE2A00300CAEBEE /* Images.xcassets */,
-				249A9F0E1AE2A00400CAEBEE /* LaunchScreen.xib */,
+				249A9F3E1AEA7F3B00CAEBEE /* AppMainController.h */,
+				249A9F3F1AEA7F3B00CAEBEE /* AppMainController.m */,
+				249A9F271AE2A01900CAEBEE /* CustomUI */,
+				249A9F311AEA7E7E00CAEBEE /* Sensor */,
 				249A9EFC1AE2A00300CAEBEE /* Supporting Files */,
+				249A9F281AE2A04E00CAEBEE /* UIDesign */,
+				249A9F441AEA846000CAEBEE /* View */,
 			);
 			path = ActivityPlanner;
 			sourceTree = "<group>";
@@ -122,6 +185,57 @@
 				249A9F1A1AE2A00400CAEBEE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		249A9F271AE2A01900CAEBEE /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomUI;
+			sourceTree = "<group>";
+		};
+		249A9F281AE2A04E00CAEBEE /* UIDesign */ = {
+			isa = PBXGroup;
+			children = (
+				249A9F091AE2A00300CAEBEE /* Main.storyboard */,
+				249A9F0C1AE2A00300CAEBEE /* Images.xcassets */,
+				249A9F0E1AE2A00400CAEBEE /* LaunchScreen.xib */,
+				249A9F291AE2AD5E00CAEBEE /* AllActivityPlan.xib */,
+				249A9F2B1AE2AD7900CAEBEE /* SectionActivityPlan.xib */,
+				249A9F2D1AE2AE2B00CAEBEE /* ActivityPlanItem.xib */,
+				249A9F2F1AE2AE3A00CAEBEE /* ActivityPlanDetailItem.xib */,
+			);
+			name = UIDesign;
+			sourceTree = "<group>";
+		};
+		249A9F311AEA7E7E00CAEBEE /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				249A9F321AEA7EAC00CAEBEE /* LocationController.h */,
+				249A9F331AEA7EAC00CAEBEE /* LocationController.m */,
+				249A9F351AEA7EBE00CAEBEE /* MotionActivityController.h */,
+				249A9F361AEA7EBE00CAEBEE /* MotionActivityController.m */,
+				249A9F381AEA7ECC00CAEBEE /* MotionController.h */,
+				249A9F391AEA7ECC00CAEBEE /* MotionController.m */,
+				249A9F3B1AEA7ED900CAEBEE /* SensorManager.h */,
+				249A9F3C1AEA7ED900CAEBEE /* SensorManager.m */,
+			);
+			name = Sensor;
+			sourceTree = "<group>";
+		};
+		249A9F441AEA846000CAEBEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24854EF11AF10F2600EAACC4 /* AbstractViewController.h */,
+				24854EF21AF10F2600EAACC4 /* AbstractViewController.m */,
+				24854EF41AF10FA300EAACC4 /* MapViewController.h */,
+				24854EF51AF10FA300EAACC4 /* MapViewController.m */,
+				24854EF71AF1100B00EAACC4 /* SettingViewController.h */,
+				24854EF81AF1100B00EAACC4 /* SettingViewController.m */,
+				24854EFA1AF1104A00EAACC4 /* BaseActivityPlanViewController.h */,
+				24854EFB1AF1104A00EAACC4 /* BaseActivityPlanViewController.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +287,11 @@
 				TargetAttributes = {
 					249A9EF81AE2A00300CAEBEE = {
 						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					249A9F141AE2A00400CAEBEE = {
 						CreatedOnToolsVersion = 6.3;
@@ -204,9 +323,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24854EEE1AF10D6600EAACC4 /* plan@2x.png in Resources */,
 				249A9F0B1AE2A00300CAEBEE /* Main.storyboard in Resources */,
+				249A9F2A1AE2AD5E00CAEBEE /* AllActivityPlan.xib in Resources */,
+				249A9F2E1AE2AE2B00CAEBEE /* ActivityPlanItem.xib in Resources */,
+				249A9F301AE2AE3A00CAEBEE /* ActivityPlanDetailItem.xib in Resources */,
 				249A9F101AE2A00400CAEBEE /* LaunchScreen.xib in Resources */,
+				24854EED1AF10D6600EAACC4 /* map@2x.png in Resources */,
+				249A9F2C1AE2AD7900CAEBEE /* SectionActivityPlan.xib in Resources */,
 				249A9F0D1AE2A00300CAEBEE /* Images.xcassets in Resources */,
+				24854EEF1AF10D6600EAACC4 /* setting@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +350,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249A9F081AE2A00300CAEBEE /* SecondViewController.m in Sources */,
+				249A9F341AEA7EAC00CAEBEE /* LocationController.m in Sources */,
 				249A9F021AE2A00300CAEBEE /* AppDelegate.m in Sources */,
-				249A9F051AE2A00300CAEBEE /* FirstViewController.m in Sources */,
+				24854EF61AF10FA300EAACC4 /* MapViewController.m in Sources */,
+				249A9F371AEA7EBE00CAEBEE /* MotionActivityController.m in Sources */,
+				249A9F471AEE565100CAEBEE /* logtrace.m in Sources */,
 				249A9EFF1AE2A00300CAEBEE /* main.m in Sources */,
+				24854EFC1AF1104A00EAACC4 /* BaseActivityPlanViewController.m in Sources */,
+				24854EF31AF10F2600EAACC4 /* AbstractViewController.m in Sources */,
+				249A9F3A1AEA7ECC00CAEBEE /* MotionController.m in Sources */,
+				249A9F3D1AEA7ED900CAEBEE /* SensorManager.m in Sources */,
+				249A9F401AEA7F3B00CAEBEE /* AppMainController.m in Sources */,
+				24854EF91AF1100B00EAACC4 /* SettingViewController.m in Sources */,
+				245F525D1AF1275E00E9D11F /* Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +557,7 @@
 				249A9F211AE2A00400CAEBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		249A9F221AE2A00400CAEBEE /* Build configuration list for PBXNativeTarget "ActivityPlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +566,7 @@
 				249A9F241AE2A00400CAEBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
